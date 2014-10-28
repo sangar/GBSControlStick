@@ -1,10 +1,10 @@
 #import <UIKit/UIKit.h>
 
-//! Project version number for BLEControlStick.
-FOUNDATION_EXPORT double BLEControlStickVersionNumber;
+//! Project version number for GBSControlStick.
+FOUNDATION_EXPORT double GBSControlStickVersionNumber;
 
-//! Project version string for BLEControlStick.
-FOUNDATION_EXPORT const unsigned char BLEControlStickVersionString[];
+//! Project version string for GBSControlStick.
+FOUNDATION_EXPORT const unsigned char GBSControlStickVersionString[];
 
 
 @protocol GBSControlStickDelegate <NSObject>

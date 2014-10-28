@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C359959319FFB0D8009FFE4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C359959219FFB0D8009FFE4C /* Info.plist */; };
 		C3B75B9619FFAEDD0031E173 /* GBSControlStick.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B75B9219FFAEDD0031E173 /* GBSControlStick.h */; };
 		C3B75B9719FFAEDD0031E173 /* GBSControlStick.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B75B9319FFAEDD0031E173 /* GBSControlStick.m */; };
 		C3B75B9819FFAEDD0031E173 /* GBSStick.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B75B9419FFAEDD0031E173 /* GBSStick.h */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C359959219FFB0D8009FFE4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GBSControlStick/Info.plist; sourceTree = "<group>"; };
 		C3B75B2B19FF96D90031E173 /* GBSControlStick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBSControlStick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B75B3619FF96D90031E173 /* GBSControlStickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBSControlStickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B75B7E19FF98AC0031E173 /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Example.xcodeproj; path = Example/Example.xcodeproj; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		C3B75B9119FFAEC70031E173 /* GBSControlStick */ = {
 			isa = PBXGroup;
 			children = (
+				C359959219FFB0D8009FFE4C /* Info.plist */,
 				C3B75B9219FFAEDD0031E173 /* GBSControlStick.h */,
 				C3B75B9319FFAEDD0031E173 /* GBSControlStick.m */,
 				C3B75B9419FFAEDD0031E173 /* GBSStick.h */,
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C359959319FFB0D8009FFE4C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +336,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BLEControlStick/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GBSControlStick/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = GBSControlStick;
@@ -347,7 +351,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BLEControlStick/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GBSControlStick/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = GBSControlStick;

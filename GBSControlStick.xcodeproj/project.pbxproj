@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3B75B9619FFAEDD0031E173 /* GBSControlStick.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B75B9219FFAEDD0031E173 /* GBSControlStick.h */; };
+		C3B75B9719FFAEDD0031E173 /* GBSControlStick.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B75B9319FFAEDD0031E173 /* GBSControlStick.m */; };
+		C3B75B9819FFAEDD0031E173 /* GBSStick.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B75B9419FFAEDD0031E173 /* GBSStick.h */; };
+		C3B75B9919FFAEDD0031E173 /* GBSStick.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B75B9519FFAEDD0031E173 /* GBSStick.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3B75B8319FF98AD0031E173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B75B7E19FF98AC0031E173 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3B75B5519FF98AC0031E173;
+			remoteInfo = Example;
+		};
+		C3B75B8519FF98AD0031E173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B75B7E19FF98AC0031E173 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3B75B6E19FF98AC0031E173;
+			remoteInfo = ExampleTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3B75B2B19FF96D90031E173 /* GBSControlStick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBSControlStick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B75B3619FF96D90031E173 /* GBSControlStickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBSControlStickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B75B7E19FF98AC0031E173 /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Example.xcodeproj; path = Example/Example.xcodeproj; sourceTree = "<group>"; };
+		C3B75B9219FFAEDD0031E173 /* GBSControlStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBSControlStick.h; path = GBSControlStick/GBSControlStick.h; sourceTree = "<group>"; };
+		C3B75B9319FFAEDD0031E173 /* GBSControlStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBSControlStick.m; path = GBSControlStick/GBSControlStick.m; sourceTree = "<group>"; };
+		C3B75B9419FFAEDD0031E173 /* GBSStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBSStick.h; path = GBSControlStick/GBSStick.h; sourceTree = "<group>"; };
+		C3B75B9519FFAEDD0031E173 /* GBSStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBSStick.m; path = GBSControlStick/GBSStick.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B75B2719FF96D90031E173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B75B3319FF96D90031E173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3B75B2119FF96D90031E173 = {
+			isa = PBXGroup;
+			children = (
+				C3B75B7E19FF98AC0031E173 /* Example.xcodeproj */,
+				C3B75B9119FFAEC70031E173 /* GBSControlStick */,
+				C3B75B2C19FF96D90031E173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B75B2C19FF96D90031E173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B75B2B19FF96D90031E173 /* GBSControlStick.framework */,
+				C3B75B3619FF96D90031E173 /* GBSControlStickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B75B7F19FF98AC0031E173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B75B8419FF98AD0031E173 /* Example.app */,
+				C3B75B8619FF98AD0031E173 /* ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B75B9119FFAEC70031E173 /* GBSControlStick */ = {
+			isa = PBXGroup;
+			children = (
+				C3B75B9219FFAEDD0031E173 /* GBSControlStick.h */,
+				C3B75B9319FFAEDD0031E173 /* GBSControlStick.m */,
+				C3B75B9419FFAEDD0031E173 /* GBSStick.h */,
+				C3B75B9519FFAEDD0031E173 /* GBSStick.m */,
+			);
+			name = GBSControlStick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3B75B2819FF96D90031E173 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B75B9819FFAEDD0031E173 /* GBSStick.h in Headers */,
+				C3B75B9619FFAEDD0031E173 /* GBSControlStick.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C3B75B2A19FF96D90031E173 /* GBSControlStick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B75B3E19FF96D90031E173 /* Build configuration list for PBXNativeTarget "GBSControlStick" */;
+			buildPhases = (
+				C3B75B2619FF96D90031E173 /* Sources */,
+				C3B75B2719FF96D90031E173 /* Frameworks */,
+				C3B75B2819FF96D90031E173 /* Headers */,
+				C3B75B2919FF96D90031E173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBSControlStick;
+			productName = BLEControlStick;
+			productReference = C3B75B2B19FF96D90031E173 /* GBSControlStick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3B75B3519FF96D90031E173 /* GBSControlStickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B75B4119FF96D90031E173 /* Build configuration list for PBXNativeTarget "GBSControlStickTests" */;
+			buildPhases = (
+				C3B75B3219FF96D90031E173 /* Sources */,
+				C3B75B3319FF96D90031E173 /* Frameworks */,
+				C3B75B3419FF96D90031E173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBSControlStickTests;
+			productName = BLEControlStickTests;
+			productReference = C3B75B3619FF96D90031E173 /* GBSControlStickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B75B2219FF96D90031E173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Gard Sandholt";
+				TargetAttributes = {
+					C3B75B2A19FF96D90031E173 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C3B75B3519FF96D90031E173 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C3B75B2519FF96D90031E173 /* Build configuration list for PBXProject "GBSControlStick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3B75B2119FF96D90031E173;
+			productRefGroup = C3B75B2C19FF96D90031E173 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C3B75B7F19FF98AC0031E173 /* Products */;
+					ProjectRef = C3B75B7E19FF98AC0031E173 /* Example.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C3B75B2A19FF96D90031E173 /* GBSControlStick */,
+				C3B75B3519FF96D90031E173 /* GBSControlStickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C3B75B8419FF98AD0031E173 /* Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Example.app;
+			remoteRef = C3B75B8319FF98AD0031E173 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3B75B8619FF98AD0031E173 /* ExampleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExampleTests.xctest;
+			remoteRef = C3B75B8519FF98AD0031E173 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B75B2919FF96D90031E173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B75B3419FF96D90031E173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B75B2619FF96D90031E173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B75B9719FFAEDD0031E173 /* GBSControlStick.m in Sources */,
+				C3B75B9919FFAEDD0031E173 /* GBSStick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B75B3219FF96D90031E173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3B75B3C19FF96D90031E173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3B75B3D19FF96D90031E173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3B75B3F19FF96D90031E173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BLEControlStick/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = GBSControlStick;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C3B75B4019FF96D90031E173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BLEControlStick/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = GBSControlStick;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3B75B4219FF96D90031E173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLEControlStickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = GBSControlStickTests;
+			};
+			name = Debug;
+		};
+		C3B75B4319FF96D90031E173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLEControlStickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = GBSControlStickTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B75B2519FF96D90031E173 /* Build configuration list for PBXProject "GBSControlStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B75B3C19FF96D90031E173 /* Debug */,
+				C3B75B3D19FF96D90031E173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B75B3E19FF96D90031E173 /* Build configuration list for PBXNativeTarget "GBSControlStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B75B3F19FF96D90031E173 /* Debug */,
+				C3B75B4019FF96D90031E173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B75B4119FF96D90031E173 /* Build configuration list for PBXNativeTarget "GBSControlStickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B75B4219FF96D90031E173 /* Debug */,
+				C3B75B4319FF96D90031E173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B75B2219FF96D90031E173 /* Project object */;
+}

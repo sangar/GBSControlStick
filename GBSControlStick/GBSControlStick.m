@@ -186,10 +186,7 @@ static UInt8 lastTopLeftVal = -1, lastTopRightVal = -1, lastLowLeftVal = -1, las
 }
 
 - (void)drawRect:(CGRect)rect {
-    NSLog(@"drawRect:(CGRect)rect: %@", NSStringFromCGRect(rect));
-    
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-
     CGContextSetRGBFillColor(ctx, 0, 0, 0, 0.1);
     CGContextSetRGBStrokeColor(ctx, 0, 0, 0, 0.5);
     CGContextFillEllipseInRect(ctx, rect);

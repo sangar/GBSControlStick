@@ -49,8 +49,6 @@
         [self.stick addGestureRecognizer:_stickGestureRecognizer];
         self.stick.center = CGPointMake(SIZE/2.f, SIZE/2.f);
         [self addSubview:self.stick];
-        
-//        [self setNeedsDisplay];
     }
     return self;
 }

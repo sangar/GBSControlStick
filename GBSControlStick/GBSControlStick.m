@@ -70,10 +70,10 @@
 }
 
 - (void)resetStickView {
+    [self resetValues];
+
     [UIView animateWithDuration:0.3 animations:^{
         self.stick.center = CGPointMake(SIZE/2.f, SIZE/2.f);
-    } completion:^(BOOL finished) {
-        [self resetValues];
     }];
 }
 
